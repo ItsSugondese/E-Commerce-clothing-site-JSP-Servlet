@@ -1,0 +1,252 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+
+
+
+/* for navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  /* left side of navbar */
+  #left {
+    display: flex;
+    align-items: center;
+    width: 620px;
+  }
+  
+  #left .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  #left .logo img {
+    height: 60px;
+    width: auto;
+  }
+  
+  #left .slogan {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    flex-shrink: 0;
+    margin-left: 10px;
+  }
+  
+
+
+
+
+/* cetner part of navbar */
+  #center {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 620px);
+    margin-left: 300px;
+  }
+
+  
+  .home{
+    margin-right: 20px;
+    position: relative;
+  }
+
+  .home img {
+    height: 25px;
+    margin-right: 5px;
+  }
+
+
+  .home .tooltiptext {
+    visibility: hidden;
+    width: 300%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    top: 105%;
+    right: -105%;
+  }
+  
+  .home:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+
+
+
+
+
+
+
+
+
+  
+  .cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 20px;
+
+  }
+  
+  .cart img {
+    height: 25px;
+    margin-right: 5px;
+  }
+  
+  .cart .tooltiptext {
+    visibility: hidden;
+    width: 200%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 105%;
+  }
+  
+  .cart:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+  .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: inline-block;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 50%;
+  }
+  
+
+.transaction{
+    margin-left: 40px;
+    position: relative;
+  }
+
+  .transaction img {
+    height: 30px;
+    margin-right: 5px;
+  }
+
+
+  .transaction .tooltiptext {
+    visibility: hidden;
+    width: 300%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    top: 105%;
+    right: -105%;
+  }
+  
+  .transaction:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  
+  
+  
+  
+  
+  .profile img {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+
+
+  /* right side of navbar */
+  #right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .profile img {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile span {
+    white-space: nowrap; /* prevent line breaks */
+    overflow: hidden; /* hide any overflow */
+    text-overflow: ellipsis; /* add ellipsis if text overflows */
+  }
+
+  .profile-name {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+  }
+  
+  
+  .logout {
+    margin-left: 10px;
+  }
+  
+  .logout-btn {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+   .login-btn {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  

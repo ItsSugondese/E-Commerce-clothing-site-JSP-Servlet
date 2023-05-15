@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+#product-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  width : 50%;
+  text-align: left;
+}
+
+/* style the input fields */
+input[type=text], input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* style the radio buttons */
+[type="radio"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* add style to form labels */
+label {
+ 
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* add style to error message */
+#error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+}

@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Container styles */
+.container {
+  width : 40%;
+  margin: auto; /* Center horizontally */
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute; /* Position the container */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position */
+}
+
+
+/* Profile styles */
+.profile {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.profile h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-field {
+  margin-bottom: 10px;
+}
+
+.profile-label {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-value {
+  display: inline-block;
+  color: #777;
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.edit-profile-button {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.change-password-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Hover styles */
+button:hover {
+  opacity: 0.8;
+}
